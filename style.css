@@ -1,15 +1,18 @@
 body {
+    background-color: rgb(238, 196, 203);
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: #ddd;
+    min-height: 95vh;
 }
 
-.calc-container {
+#calc-container {
     min-width: 500px;
     min-height: 700px;
-    background-color: #555;
+    background-color: #666;
     border-radius: 25px;
-    box-shadow: 3px 3px 3px #333;
+    box-shadow: 3px 3px 3px #000;
 }
