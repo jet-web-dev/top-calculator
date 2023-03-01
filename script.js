@@ -14,6 +14,10 @@ function divide (a,b) {
     return a / b;
 }
 
+function remainder (a,b) {
+    return a % b;
+}
+
 let a = 0;
 let b = 0;
 let result = 0;
@@ -32,6 +36,9 @@ function operate (opp,a,b) {
             break;
         case "/":
             result = divide(a,b);
+            break;
+        case "%":
+            result = remainder(a,b);
             break;
     }
 }
