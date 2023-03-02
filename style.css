@@ -44,6 +44,14 @@ button {
     margin: 2px;
 }
 
-#zero {
+.btn-opr, .btn-eql {
+    background-color: rgb(199, 156, 107)
+}
+
+.btn-clr, .btn-bck {
+    background-color: rgb(89, 185, 185);
+}
+
+#zero, #clear {
     grid-column: span 2;
 }
